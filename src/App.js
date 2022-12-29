@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './component/Navbar';
+import Main from './component/Main';
 
 function App() {
   return (
     <div className="App">
-      <div className='bg-main w-full absolute h-full -z-20'></div>
         <Navbar/>
+        <Main/>
     </div>
   );
 }

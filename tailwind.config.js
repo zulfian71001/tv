@@ -4,11 +4,14 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "4rem",
+      padding: "5rem",
     },
     extend: {
       colors : {
         main : "#181D31",
+      },
+      backgroundImage: {
+        'bg1': "url('/src/image/bg.jpg')",
       },
     },
   },

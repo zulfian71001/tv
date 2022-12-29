@@ -37,7 +37,7 @@
   }
 }
 body{
-  @apply before:block before:backdrop-blur-md before:w-full before:h-full before:absolute ;
+  @apply  before:block before:backdrop-blur-md before:inset-0 before:absolute before:-z-10 bg-bg1 bg-cover bg-no-repeat object-cover;
 }
 *{
   padding: 0px;
